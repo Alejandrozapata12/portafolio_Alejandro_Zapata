@@ -1,0 +1,188 @@
+export type Language = "es" | "en";
+
+export const translations = {
+  es: {
+    nav: {
+      home: "Inicio",
+      about: "Sobre Mí",
+      experience: "Experiencia",
+      skills: "Habilidades",
+      portfolio: "Proyectos",
+      contact: "Contacto",
+    },
+    hero: {
+      role: "Desarrollador Web Full-Stack",
+      title1: "CONSTRUYENDO",
+      title2: "SISTEMAS",
+      title3: "ROBUSTOS",
+      description: "Arquitecto ecosistemas full-stack, transformando lógica de negocio compleja en aplicaciones web de alto rendimiento con precisión de Medellín.",
+      cta: "Explorar Arquitectura",
+      lat: "LATITUD",
+      long: "LONGITUD",
+      craft: "ARTESANÍA COLOMBIANA",
+      exp: "Años de experiencia en mercados globales",
+    },
+    about: {
+      label: "Introducción",
+      title: "Arquitectura Más Allá del Código.",
+      p1: "Residente en Medellín, el Silicon Valley de Sudamérica, soy Alejandro Zapata, un Desarrollador de Software Full-Stack dedicado a arquitecturas web modernas.",
+      p2: "Mi enfoque se centra en la metodología Oracle ONE y los estándares profesionales del SENA. Me especializo en construir sistemas robustos multi-rol (como Inventrack) y plataformas médicas complejas (PlannerTime) que optimizan operaciones reales con código limpio y eficiente.",
+      eduLabel: "Formación Académica",
+      edu1: "Tecnología en Análisis y Desarrollo de Software",
+      edu2: "Personal Development G4 - Frontend Development",
+      viewCert: "Ver Credencial",
+      principleLabel: "Principios Core",
+      philosophy: "Los sistemas eficientes nacen de una comprensión profunda del viaje del usuario. Cierro la brecha entre esquemas MySQL complejos e interfaces React intuitivas.",
+    },
+    experience: {
+      label: "Trayectoria Profesional",
+      title: "Experiencia.",
+      roles: [
+        {
+          company: "Freelance / Consultoría",
+          role: "Desarrollador Full-Stack Lead",
+          period: "2023 - Presente",
+          desc: "Liderando el desarrollo de soluciones a medida, desde arquitecturas escalables en Node.js hasta interfaces reactivas en React. Especializado en optimización de bases de datos y seguridad multi-rol."
+        },
+        {
+          company: "Proyectos Independientes",
+          role: "Arquitecto de Software",
+          period: "2021 - 2023",
+          desc: "Desarrollo de ecosistemas complejos como Inventrack y PlannerTime, enfocados en la arquitectura limpia y la eficiencia operativa."
+        }
+      ]
+    },
+    expertise: {
+      label: "Matriz de Capacidades",
+      title: "Habilidades.",
+      frontend: "Frontend Discovery",
+      backend: "Motor Backend",
+      systems: "Sistemas & Datos",
+      services: "Servicios Profesionales",
+    },
+    portfolio: {
+      label: "Trabajos Seleccionados",
+      title: "Proyectos.",
+      archive: "ARCHIVO",
+      inventrack: "Sistema de gestión de inventario avanzado con acceso multi-rol y seguimiento en tiempo real.",
+      plannertime: "Plataforma de citas médicas gestionando procesos multi-rol e integraciones externas.",
+      appointmentpro: "Página de aterrizaje enfocada en conversión con UI responsiva de alto rendimiento.",
+      challenge: "¿Tienes un desafío complejo?",
+      discuss: "Hablemos de arquitectura",
+    },
+    contact: {
+      label: "Conectar",
+      title1: "¿Empezamos un",
+      title2: "Proyecto?",
+      email: "Correo",
+      loc: "Ubicación",
+      whatsapp: "WhatsApp",
+      formName: "Nombre Completo",
+      formEmail: "Correo Electrónico",
+      formMessage: "Cuéntame sobre la empresa",
+      placeholderName: "Tu nombre aquí",
+      placeholderEmail: "tu@empresa.com",
+      placeholderMessage: "Busco un desarrollador para...",
+      submit: "Enviar Mensaje",
+      statusLabel: "Estado de Sincronización",
+      statusDesc: "Disponible para roles de arquitectura full-stack y asociaciones de ingeniería remota. Tiempo de respuesta < 24h.",
+    },
+    aiChat: {
+      welcome: "¡Hola! Soy el asistente IA de Alejandro. Pregúntame sobre su experiencia o filosofía de trabajo.",
+      persona: "Asistente del Arquitecto",
+      placeholder: "Pregunta sobre Alejo...",
+    }
+  },
+  en: {
+    nav: {
+      home: "Home",
+      about: "About Me",
+      experience: "Experience",
+      skills: "Skills",
+      portfolio: "Portfolio",
+      contact: "Contact",
+    },
+    hero: {
+      role: "Full-Stack Web Developer",
+      title1: "ARCHITECTING",
+      title2: "ROBUST",
+      title3: "SYSTEMS",
+      description: "I architect full-stack ecosystems, transforming complex business logic into high-performance web applications with Medellín precision.",
+      cta: "Explore Architecture",
+      lat: "LATITUDE",
+      long: "LONGITUDE",
+      craft: "COLOMBIAN CRAFTSMANSHIP",
+      exp: "Years of experience in global tech markets",
+    },
+    about: {
+      label: "Introduction",
+      title: "Architecture Beyond Code.",
+      p1: "Based in Medellín, the Silicon Valley of South America, I am Alejandro Zapata, a Full-Stack Software Developer dedicated to modern web architectures.",
+      p2: "My engineering approach centers on the Oracle ONE methodology and professional SENA standards. I specialize in building robust, multi-role systems (like Inventrack) and complex medical planning platforms (PlannerTime) that optimize real-world operations with clean, efficient code.",
+      eduLabel: "Academic Formation",
+      edu1: "Analysis and Software Development Technology",
+      edu2: "Personal Development G4 - Frontend Development",
+      viewCert: "View Credential",
+      principleLabel: "Core Principles",
+      philosophy: "Efficient systems are born from a deep understanding of the user journey. I bridge the gap between complex MySQL schemas and intuitive React interfaces.",
+    },
+    experience: {
+      label: "Professional Journey",
+      title: "Experience.",
+      roles: [
+        {
+          company: "Freelance / Consulting",
+          role: "Lead Full-Stack Developer",
+          period: "2023 - Present",
+          desc: "Leading the development of custom solutions, from scalable Node.js architectures to reactive interfaces in React. Specialized in database optimization and multi-role security."
+        },
+        {
+          company: "Independent Projects",
+          role: "Software Architect",
+          period: "2021 - 2023",
+          desc: "Development of complex ecosystems such as Inventrack and PlannerTime, focusing on clean architecture and operational efficiency."
+        }
+      ]
+    },
+    expertise: {
+      label: "Capability Matrix",
+      title: "Skills.",
+      frontend: "Frontend Discovery",
+      backend: "Backend Engine",
+      systems: "Systems & Data",
+      services: "Professional Services",
+    },
+    portfolio: {
+      label: "Selected Works",
+      title: "Projects.",
+      archive: "ARCHIVE",
+      inventrack: "Advanced inventory management system with multi-role access and real-time tracking.",
+      plannertime: "Medical appointment platform managing multi-role processes and external integrations.",
+      appointmentpro: "Conversion-focused landing page with high-performance responsive UI.",
+      challenge: "Have a complex challenge?",
+      discuss: "Let's discuss architecture",
+    },
+    contact: {
+      label: "Connect",
+      title1: "Start a",
+      title2: "Project?",
+      email: "Email",
+      loc: "Location",
+      whatsapp: "WhatsApp",
+      formName: "Full Name",
+      formEmail: "Email Address",
+      formMessage: "Tell me about the venture",
+      placeholderName: "Your name here",
+      placeholderEmail: "you@company.com",
+      placeholderMessage: "I'm looking for a developer to...",
+      submit: "Dispatch Message",
+      statusLabel: "Sync Status",
+      statusDesc: "Currently available for full-stack architecture roles & remote engineering partnerships. Response time < 24h.",
+    },
+    aiChat: {
+      welcome: "Hola! I'm Alejandro's AI assistant. Ask me anything about his expertise or work philosophy.",
+      persona: "Architect Assistant",
+      placeholder: "Ask about Alejo...",
+    }
+  },
+};
