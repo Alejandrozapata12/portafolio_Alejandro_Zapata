@@ -6,7 +6,6 @@ import Expertise from "./components/Expertise";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import AIChat from "./components/AIChat";
 
 import { motion, useScroll, useSpring } from "framer-motion";
 import { LanguageProvider } from "./constants/LanguageContext";
@@ -45,7 +44,6 @@ export default function App() {
         </main>
 
         <Footer />
-        <AIChat />
       </div>
     </LanguageProvider>
   );

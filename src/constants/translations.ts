@@ -87,11 +87,6 @@ export const translations = {
       statusLabel: "Estado de Sincronización",
       statusDesc: "Disponible para roles de arquitectura full-stack y asociaciones de ingeniería remota. Tiempo de respuesta < 24h.",
     },
-    aiChat: {
-      welcome: "¡Hola! Soy el asistente IA de Alejandro. Pregúntame sobre su experiencia o filosofía de trabajo.",
-      persona: "Asistente del Arquitecto",
-      placeholder: "Pregunta sobre Alejo...",
-    }
   },
   en: {
     nav: {
@@ -179,10 +174,5 @@ export const translations = {
       statusLabel: "Sync Status",
       statusDesc: "Currently available for full-stack architecture roles & remote engineering partnerships. Response time < 24h.",
     },
-    aiChat: {
-      welcome: "Hola! I'm Alejandro's AI assistant. Ask me anything about his expertise or work philosophy.",
-      persona: "Architect Assistant",
-      placeholder: "Ask about Alejo...",
-    }
   },
 };

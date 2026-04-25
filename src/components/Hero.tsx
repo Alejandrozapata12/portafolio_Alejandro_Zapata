@@ -107,8 +107,12 @@ export default function Hero() {
         <div className="w-full h-full bg-gradient-to-t from-dark-bg via-transparent to-transparent absolute inset-0 z-10" />
         <img 
           src="https://picsum.photos/seed/code/1920/1080?grayscale" 
-          alt="Technical" 
+          alt="Technical background"
           className="w-full h-full object-cover"
+          width="1920"
+          height="1080"
+          loading="eager"
+          fetchpriority="high"
           referrerPolicy="no-referrer"
         />
       </motion.div>
